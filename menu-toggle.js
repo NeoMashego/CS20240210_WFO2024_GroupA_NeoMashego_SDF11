@@ -1,0 +1,1 @@
+let menuToggle = document.getElementById("mobile-menu-toggle")

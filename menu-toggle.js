@@ -1,5 +1,6 @@
-let menuToggle = document.getElementById("mobile-menu-toggle")
+let menuToggle = document.getElementById("mobile-menu-toggle");
+let mobileMenu = document.getElementById("mobile-menu");
 
 menuToggle.addEventListener("click", function(){
-    console.log("Clicked")
+    mobileMenu.classList.toggle("hidden")
 })
